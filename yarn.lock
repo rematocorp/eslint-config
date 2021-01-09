@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@remato/prettier-config@git+ssh://git@github.com/rematocorp/prettier-config.git#master":
+  version "1.0.0"
+  resolved "git+ssh://git@github.com/rematocorp/prettier-config.git#f4c3638375c22430274a50ec593aa7a267a35f3a"
+
 acorn-jsx@^5.2.0:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.1.tgz#fc8661e11b7ac1539c47dbfea2e72b3af34d267b"
