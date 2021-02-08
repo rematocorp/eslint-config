@@ -1,3 +1,3 @@
 module.exports = {
-	extends: ['./common/vue'],
+	extends: ['./common/vue', './common/javascript'],
 }

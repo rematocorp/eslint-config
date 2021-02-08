@@ -3,5 +3,5 @@ module.exports = {
 		parser: '@typescript-eslint/parser',
 		sourceType: 'module',
 	},
-	extends: ['./common/vue'],
+	extends: ['./common/vue', './common/javascript'],
 }
