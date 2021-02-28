@@ -11,6 +11,7 @@ module.exports = {
 				],
 			},
 		],
+		'no-duplicate-imports': 'error',
 		'spaced-comment': 'error',
 	},
 }
