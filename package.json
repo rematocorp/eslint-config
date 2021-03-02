@@ -2,7 +2,7 @@
 	"name": "@remato/eslint-config",
 	"version": "1.3.0",
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.15.2",
+		"@typescript-eslint/eslint-plugin": "^4.16.1",
 		"@typescript-eslint/parser": "^4.16.1",
 		"eslint-config-universe": "^7.0.0",
 		"eslint-plugin-react-hooks": "^4.2.0",
