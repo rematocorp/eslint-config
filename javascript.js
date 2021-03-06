@@ -12,6 +12,8 @@ module.exports = {
 			},
 		],
 		'no-duplicate-imports': 'error',
+		'no-undef': 'error',
+		'no-unused-vars': ['error', { args: 'none', ignoreRestSiblings: true }],
 		'spaced-comment': 'error',
 	},
 }

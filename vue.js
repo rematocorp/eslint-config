@@ -3,5 +3,6 @@ module.exports = {
 	rules: {
 		'vue/no-unused-components': 'error',
 		'vue/no-unregistered-components': 'error',
+		'vue/this-in-template': 'error',
 	},
 }

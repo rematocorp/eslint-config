@@ -3,5 +3,5 @@ module.exports = {
 	parserOptions: {
 		sourceType: 'module',
 	},
-	extends: ['./javascript'],
+	extends: ['./javascript', './common/typescript'],
 }
