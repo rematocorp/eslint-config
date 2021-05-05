@@ -13,7 +13,11 @@ module.exports = {
 		],
 		'no-duplicate-imports': 'error',
 		'no-undef': 'error',
-		'no-unused-vars': ['error', { args: 'none', ignoreRestSiblings: true }],
+		'no-unused-vars': ['error', { ignoreRestSiblings: true }],
+		'no-var': 'error',
+		'no-const-assign': 'error',
+		'prefer-const': ['error', { destructuring: 'all' }],
 		'spaced-comment': 'error',
+		curly: 'error',
 	},
 }
