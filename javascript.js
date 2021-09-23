@@ -19,5 +19,6 @@ module.exports = {
 		'prefer-const': ['error', { destructuring: 'all' }],
 		'spaced-comment': 'error',
 		curly: 'error',
+		'object-shorthand': 'error'
 	},
 }
