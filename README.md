@@ -10,8 +10,10 @@ $ yarn add --dev eslint @remato/eslint-config
 
 1. Edit appropriate rule file
 2. Run `$ yarn publish`
-3. Create [Github release](https://github.com/rematocorp/eslint-config/releases)
-4. Update your repository package.json dependency version
+3. Enter your npm credentials
+4. Push master
+5. Create [Github release](https://github.com/rematocorp/eslint-config/releases)
+6. Update your repository package.json dependency version
 
 ## Test
 
