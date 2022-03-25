@@ -1,6 +1,6 @@
 {
 	"name": "@remato/eslint-config",
-	"version": "1.8.0",
+	"version": "1.9.0",
 	"license": "MIT",
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.16.0",
@@ -13,6 +13,6 @@
 		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
 	},
 	"peerDependencies": {
-		"eslint": ">=8.6.0"
+		"eslint": ">=8.11.0"
 	}
 }

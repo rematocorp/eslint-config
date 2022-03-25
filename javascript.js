@@ -19,6 +19,10 @@ module.exports = {
 		'prefer-const': ['error', { destructuring: 'all' }],
 		'spaced-comment': 'error',
 		curly: 'error',
-		'object-shorthand': 'error'
+		'object-shorthand': 'error',
+		'no-console': ['error', { allow: ['warn', 'error'] }],
+		'one-var-declaration-per-line': ['error', 'always'],
+		'one-var': ['error', 'never'],
+		eqeqeq: ['error', 'always', { null: 'ignore' }],
 	},
 }
