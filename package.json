@@ -6,7 +6,7 @@
 		"@typescript-eslint/eslint-plugin": "^5.28.0",
 		"@typescript-eslint/parser": "^5.28.0",
 		"eslint-config-universe": "^10.0.0",
-		"eslint-plugin-react-hooks": "^4.5.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-vue": "^9.1.1"
 	},
 	"devDependencies": {
