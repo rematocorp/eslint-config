@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.33.0",
-		"@typescript-eslint/parser": "^5.33.0",
+		"@typescript-eslint/parser": "^5.33.1",
 		"eslint-config-universe": "^11.1.0",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-vue": "^9.3.0"
