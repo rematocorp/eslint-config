@@ -8,5 +8,6 @@ module.exports = {
 		'react-hooks/exhaustive-deps': 'warn',
 		'flowtype/no-types-missing-file-annotation': 'off',
 		'@typescript-eslint/no-unused-vars': 'off',
+		'jsx-expressions/strict-logical-expressions': 'error',
 	},
 }
