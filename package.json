@@ -1,6 +1,6 @@
 {
 	"name": "@remato/eslint-config",
-	"version": "1.9.1",
+	"version": "1.9.2",
 	"license": "MIT",
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.38.1",
