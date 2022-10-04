@@ -1,6 +1,6 @@
 module.exports = {
-	extends: 'universe/native',
-	plugins: ['react-hooks', 'jsx-expressions'],
+	extends: ['universe/native'],
+	plugins: ['react-hooks'],
 	rules: {
 		'no-case-declarations': 'off',
 		'import/order': 'off',
@@ -8,6 +8,5 @@ module.exports = {
 		'react-hooks/exhaustive-deps': 'warn',
 		'flowtype/no-types-missing-file-annotation': 'off',
 		'@typescript-eslint/no-unused-vars': 'off',
-		'jsx-expressions/strict-logical-expressions': 'error',
 	},
 }
