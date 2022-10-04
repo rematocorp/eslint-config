@@ -1,6 +1,6 @@
 module.exports = {
 	extends: 'universe/native',
-	plugins: ['react-hooks'],
+	plugins: ['react-hooks', 'jsx-expressions'],
 	rules: {
 		'no-case-declarations': 'off',
 		'import/order': 'off',
