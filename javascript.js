@@ -1,4 +1,5 @@
 module.exports = {
+	plugins: ['import'],
 	rules: {
 		'no-restricted-imports': [
 			'error',
@@ -11,7 +12,7 @@ module.exports = {
 				],
 			},
 		],
-		'no-duplicate-imports': 'error',
+		'import/no-duplicates': 'error',
 		'no-undef': 'error',
 		'no-unused-vars': ['error', { ignoreRestSiblings: true }],
 		'no-var': 'error',
@@ -26,5 +27,6 @@ module.exports = {
 		eqeqeq: ['error', 'always', { null: 'ignore' }],
 		'no-unreachable': 'error',
 		'padding-line-between-statements': ['error', { blankLine: 'always', prev: '*', next: 'return' }],
+		'no-fallthrough': 'error',
 	},
 }
