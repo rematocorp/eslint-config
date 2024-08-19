@@ -1,5 +1,5 @@
 module.exports = {
-	plugins: ['import'],
+	plugins: ['import', 'sort-export-all'],
 	rules: {
 		'no-restricted-imports': [
 			'error',
@@ -28,5 +28,21 @@ module.exports = {
 		'no-unreachable': 'error',
 		'padding-line-between-statements': ['error', { blankLine: 'always', prev: '*', next: 'return' }],
 		'no-fallthrough': 'error',
+		'import/order': [
+			'error',
+			{
+				'groups': ['builtin', 'external', ['parent', 'sibling'], 'index'],
+				'newlines-between': 'always',
+				'alphabetize': { 'order': 'asc', 'caseInsensitive': true }
+			}
+		],
+		'sort-export-all/sort-export-all': ['error', 'asc', { 'caseSensitive': false }],
+		'sort-imports': [
+			'error',
+			{
+				'ignoreCase': true,
+				'ignoreDeclarationSort': true
+			}
+		]
 	},
 }
