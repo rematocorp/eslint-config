@@ -9,14 +9,14 @@
 		"eslint-plugin-import": "^2.31.0",
 		"eslint-plugin-react-hooks": "^5.2.0",
 		"eslint-plugin-sort-export-all": "^2.1.0",
-		"eslint-plugin-vue": "^10.0.0"
+		"eslint-plugin-vue": "^10.0.0",
+		"vue-eslint-parser": "^10.0.0"
 	},
 	"devDependencies": {
 		"@remato/prettier-config": "^1.0.0"
 	},
 	"peerDependencies": {
-		"eslint": ">=8.57.0",
-		"vue-eslint-parser": "^10.0.0"
+		"eslint": ">=8.57.0"
 	},
 	"packageManager": "yarn@4.1.0"
 }
