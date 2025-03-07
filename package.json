@@ -12,7 +12,7 @@
 		"eslint-plugin-vue": "^9.32.0"
 	},
 	"devDependencies": {
-		"@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
+		"@remato/prettier-config": "^1.0.0"
 	},
 	"peerDependencies": {
 		"eslint": ">=8.11.0"

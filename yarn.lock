@@ -61,7 +61,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@remato/eslint-config@workspace:."
   dependencies:
-    "@remato/prettier-config": "git+ssh://git@github.com/rematocorp/prettier-config.git#master"
+    "@remato/prettier-config": "npm:^1.0.0"
     "@typescript-eslint/eslint-plugin": "npm:^8.25.0"
     "@typescript-eslint/parser": "npm:^8.25.0"
     eslint-config-universe: "npm:^14.0.0"
@@ -74,10 +74,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@remato/prettier-config@git+ssh://git@github.com/rematocorp/prettier-config.git#master":
+"@remato/prettier-config@npm:^1.0.0":
   version: 1.0.0
-  resolution: "@remato/prettier-config@git+ssh://git@github.com/rematocorp/prettier-config.git#commit=f4c3638375c22430274a50ec593aa7a267a35f3a"
-  checksum: 10c0/0d2fba4ef17f97aca18f86196c2a897b05fec289ba0d876fb7d4a79be036144212d8bd3379f0575d60ef1a3d3dbb26c011d8d80b3d68f9931a081024c20269b6
+  resolution: "@remato/prettier-config@npm:1.0.0"
+  checksum: 10c0/8118cd31a989dea5a9db51f1dd28de1f1d4a7f1a0de8e1229c51d120466785bf9b9ca277da29ad1a4c671c03931c337a6e68bf4e80306d3f32c4ac25121ab8af
   languageName: node
   linkType: hard
 
