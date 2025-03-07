@@ -71,6 +71,7 @@ __metadata:
     eslint-plugin-vue: "npm:^10.0.0"
   peerDependencies:
     eslint: ">=8.57.0"
+    vue-eslint-parser: ^10.0.0
   languageName: unknown
   linkType: soft
 

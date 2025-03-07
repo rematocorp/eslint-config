@@ -1,5 +1,5 @@
 module.exports = {
-	extends: ['plugin:vue/base', 'plugin:vue/vue3-essential', './javascript'],
+	extends: ['plugin:vue/base', 'plugin:vue/essential', './javascript'],
 	rules: {
 		// Disables undesired checks
 		'vue/no-reserved-component-names': 'off',
