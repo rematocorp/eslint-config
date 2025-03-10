@@ -14,14 +14,8 @@ export default [
 		rules: {
 			'no-unused-vars': 'off',
 			'@typescript-eslint/no-unused-vars': ['error', { ignoreRestSiblings: true }],
+			'no-undef': 'off',
 		},
-		overrides: [
-			{
-				files: ['*.ts', '*.tsx'],
-				rules: {
-					'no-undef': 'off',
-				},
-			},
-		],
+	
 	},
 ]
