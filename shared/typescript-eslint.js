@@ -1,20 +1,27 @@
-import tsEslintPlugin from '@typescript-eslint/eslint-plugin'
-import tsEslintParser from '@typescript-eslint/parser'
+import tsPlugin from '@typescript-eslint/eslint-plugin'
+import tsParser from '@typescript-eslint/parser'
 
 export default [
 	{
 		files: ['**/*.ts', '**/*.tsx'],
 		languageOptions: {
-			parser: tsEslintParser,
+			parser: tsParser,
 			sourceType: 'module',
 		},
 		plugins: {
-			'@typescript-eslint': tsEslintPlugin,
+			'@typescript-eslint': tsPlugin,
 		},
 		rules: {
 			'no-unused-vars': 'off',
 			'@typescript-eslint/no-unused-vars': ['error', { ignoreRestSiblings: true }],
-			'no-undef': 'off',
 		},
+		overrides: [
+			{
+				files: ['*.ts', '*.tsx'],
+				rules: {
+					'no-undef': 'off',
+				},
+			},
+		],
 	},
 ]
