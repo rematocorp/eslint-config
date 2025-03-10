@@ -4,9 +4,9 @@ import tsConfig from './shared/typescript-eslint.js'
 import tsParser from '@typescript-eslint/parser'
 
 export default [
-	vueConfig,
-	jsConfig,
-	tsConfig,
+	...vueConfig,
+	...jsConfig,
+	...tsConfig,
 	{
 		files: ['**/*.{ts,tsx,vue}'],
 		languageOptions: {
