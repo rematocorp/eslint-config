@@ -1,12 +1,10 @@
 import vueConfig from './shared/vue-eslint.js'
 import jsConfig from './shared/javascript-eslint.js'
-import tsConfig from './shared/typescript-eslint.js'
 import tsParser from '@typescript-eslint/parser'
 
 export default [
-	...vueConfig,
 	...jsConfig,
-	...tsConfig,
+	...vueConfig,
 	{
 		files: ['**/*.{ts,tsx,vue}'],
 		languageOptions: {
@@ -14,7 +12,11 @@ export default [
 			ecmaVersion: 5,
 			parserOptions: {
 				parser: tsParser,
-			  },
+			},
+		},
+		rules: {
+			'no-undef': 'off',
+			'no-unused-vars': 'off',
 		},
 	},
 ]

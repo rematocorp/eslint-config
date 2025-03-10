@@ -1,17 +1,25 @@
-import jsConfig from './shared/javascript-eslint.js' 
-import tsConfig from './shared/typescript-eslint.js' 
 import tsParser from '@typescript-eslint/parser'
+import tsPlugin from '@typescript-eslint/eslint-plugin'
+import jsConfig from './shared/javascript-eslint.js'
 
 export default [
 	...jsConfig,
-	...tsConfig,
 	{
+		files: ['**/*.{ts,tsx}'],
 		languageOptions: {
 			sourceType: 'module',
 			ecmaVersion: 5,
 			parserOptions: {
 				parser: tsParser,
-			  },
+			},
+		},
+		plugins: {
+			'@typescript-eslint': tsPlugin,
+		},
+		rules: {
+			'no-unused-vars': 'off',
+			'no-undef': 'off',
+			'@typescript-eslint/no-unused-vars': ['error', { ignoreRestSiblings: true }],
 		},
 	},
 ]

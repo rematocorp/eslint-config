@@ -1,11 +1,11 @@
 import eslintPluginImport from 'eslint-plugin-import'
-import eslintPluginSortExportAll  from 'eslint-plugin-sort-export-all'
+import eslintPluginSortExportAll from 'eslint-plugin-sort-export-all'
 
 export default [
 	{
 		plugins: {
 			import: eslintPluginImport,
-			'sort-export-all': eslintPluginSortExportAll ,
+			'sort-export-all': eslintPluginSortExportAll,
 		},
 		rules: {
 			'no-restricted-imports': [
