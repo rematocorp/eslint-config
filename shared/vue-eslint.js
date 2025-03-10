@@ -1,10 +1,8 @@
 import eslintPluginVue from 'eslint-plugin-vue'
-import jsConfig from './javascript-eslint.js'
 
 export default [
 	...eslintPluginVue.configs['flat/base'],
 	...eslintPluginVue.configs['flat/essential'],
-	...jsConfig,
 	{
 		plugins: {
 			vue: eslintPluginVue,
