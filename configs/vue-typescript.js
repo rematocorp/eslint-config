@@ -1,6 +1,6 @@
-import vueConfig from './shared/vue-eslint.js'
-import tsConfig from './shared/typescript-eslint.js'
-import jsConfig from './shared/javascript-eslint.js'
+import vueConfig from './vue.js'
+import tsConfig from './typescript.js'
+import jsConfig from './javascript.js'
 import tsParser from '@typescript-eslint/parser'
 
 export default [
