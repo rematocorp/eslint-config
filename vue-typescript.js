@@ -9,7 +9,7 @@ export default [
 		files: ['**/*.{ts,tsx,vue}'],
 		languageOptions: {
 			sourceType: 'module',
-			ecmaVersion: 5,
+			ecmaVersion: 2015,
 			parserOptions: {
 				parser: tsParser,
 			},

@@ -7,8 +7,6 @@ export default [
 	{
 		files: ['**/*.{ts,tsx}'],
 		languageOptions: {
-			sourceType: 'module',
-			ecmaVersion: 5,
 			parserOptions: {
 				parser: tsParser,
 			},
