@@ -1,4 +1,4 @@
-import vueTsConfig from './vue-typescript'
+import vueTsConfig from './vue-typescript.js'
 import tsConfig from './shared/typescript-eslint.js'
 
 const configs = {
