@@ -3,6 +3,8 @@ import { fileURLToPath } from 'node:url'
 import js from '@eslint/js'
 import { FlatCompat } from '@eslint/eslintrc'
 import reactHooksPlugin from 'eslint-plugin-react-hooks'
+import tsPlugin from '@typescript-eslint/eslint-plugin'
+import { fixupConfigRules } from '@eslint/compat'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -13,11 +15,10 @@ const compat = new FlatCompat({
 })
 
 export default [
-	...reactHooksPlugin.configs['recommended-latest'],
-	...compat.extends('eslint-config-universe/native'),
+	reactHooksPlugin.configs['recommended-latest'],
+	...fixupConfigRules(compat.extends('eslint-config-universe/native')),
 	{
 		plugins: {
-			'react-hooks': reactHooksPlugin,
 			'@typescript-eslint': tsPlugin,
 		},
 		rules: {
