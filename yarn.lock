@@ -61,7 +61,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@remato/eslint-config@workspace:."
   dependencies:
-    "@remato/prettier-config": "npm:^1.0.0"
+    "@remato/prettier-config": "npm:^1.1.0"
     "@typescript-eslint/eslint-plugin": "npm:^8.26.0"
     "@typescript-eslint/parser": "npm:^8.26.0"
     eslint-config-universe: "npm:^14.0.0"
@@ -71,14 +71,14 @@ __metadata:
     eslint-plugin-vue: "npm:^10.0.0"
     vue-eslint-parser: "npm:^10.0.0"
   peerDependencies:
-    eslint: ">=9.0.0"
+    eslint: ">=9.22.0"
   languageName: unknown
   linkType: soft
 
-"@remato/prettier-config@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@remato/prettier-config@npm:1.0.0"
-  checksum: 10c0/8118cd31a989dea5a9db51f1dd28de1f1d4a7f1a0de8e1229c51d120466785bf9b9ca277da29ad1a4c671c03931c337a6e68bf4e80306d3f32c4ac25121ab8af
+"@remato/prettier-config@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@remato/prettier-config@npm:1.1.0"
+  checksum: 10c0/7cb752a0208f5ff40d1cca1ee1903ea5afcde68b50d02efdc4071f647353869569317f666db40ad072c787656755f4f6a5bcea1a362db7d84a9b427dbcc25a4a
   languageName: node
   linkType: hard
 
