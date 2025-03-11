@@ -13,7 +13,7 @@ const compat = new FlatCompat({
 })
 
 export default [
-	...reactHooks.configs['recommended-latest'],
+	...reactHooksPlugin.configs['recommended-latest'],
 	...compat.extends('eslint-config-universe/native'),
 	{
 		plugins: {
