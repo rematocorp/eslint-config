@@ -1,7 +1,9 @@
 import tsParser from '@typescript-eslint/parser'
 import tsPlugin from '@typescript-eslint/eslint-plugin'
+import jsConfig from './javascript.js'
 
 export default [
+	...jsConfig,
 	{
 		files: ['**/*.{ts,tsx}'],
 		languageOptions: {
