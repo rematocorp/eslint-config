@@ -11,7 +11,7 @@
 		"@typescript-eslint/eslint-plugin": "^8.34.0",
 		"@typescript-eslint/parser": "^8.34.0",
 		"eslint-config-universe": "^15.0.3",
-		"eslint-plugin-import": "^2.31.0",
+		"eslint-plugin-import": "^2.32.0",
 		"eslint-plugin-react-hooks": "^5.2.0",
 		"eslint-plugin-sort-export-all": "^2.1.0",
 		"eslint-plugin-vue": "^10.2.0",
