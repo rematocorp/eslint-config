@@ -7,6 +7,6 @@ updates:
     cooldown:
       default-days: 7
     groups:
-      typescript:
-        patterns:
-          - '@typescript-eslint/*'
+        typescript:
+            patterns:
+                - '@typescript-eslint/*'
