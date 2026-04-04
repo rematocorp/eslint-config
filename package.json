@@ -15,7 +15,7 @@
 		"eslint-plugin-react-hooks": "^7.0.1",
 		"eslint-plugin-sort-export-all": "^2.1.0",
 		"eslint-plugin-vue": "^10.7.0",
-		"vue-eslint-parser": "^10.2.0"
+		"vue-eslint-parser": "^10.4.0"
 	},
 	"devDependencies": {
 		"@remato/prettier-config": "^1.1.0"
